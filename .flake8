@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 120
+extend-ignore = E402,W605,E203
+per-file-ignores =
+    # imported but unused
+    ./src/prepare_geo_data/create_distance_matrix_zipcode.py: E722, E501
+    ./src/prepare_geo_data/determine_adjacent.py: E501
+    ./src/data/schemas/user_input_schema.py: E501
+    ./streamlit_app.py: F401
