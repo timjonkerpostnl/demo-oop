@@ -1,5 +1,3 @@
-
-
 class ClimateControl:
     """
     Climate control:

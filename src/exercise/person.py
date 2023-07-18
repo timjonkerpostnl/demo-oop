@@ -1,14 +1,8 @@
-from dataclasses import dataclass, field
-from typing import Optional
-
-from src.possible_solution.car import Car
+from dataclasses import dataclass
 
 
 @dataclass
 class Person:
-    name: str
-    age: int
-    car: Optional[Car] = field(default=None)
     """
     A person has:
         - A name
@@ -17,3 +11,4 @@ class Person:
 
     A person should be able to register a car and apply for insurance by requesting the cost
     """
+    pass

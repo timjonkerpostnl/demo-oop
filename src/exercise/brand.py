@@ -2,7 +2,6 @@ from dataclasses import dataclass
 from enum import Enum
 
 
-
 class BrandName(Enum):
     suzuki = "Suzuki"  # Max hp: 200, Additional insurance cost: 100
     mercedes = "Mercedes"  # Max hp: 500, Additional insurance cost: 1000
