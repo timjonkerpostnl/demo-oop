@@ -28,6 +28,10 @@ class Car:
     convertible: bool
     climate_control: ClimateControl = field(default=ClimateControl())
 
+    def __post_init__(self):
+        if not self.brand.is_engine_available(self.engine):
+            raise ValueError(f"This {self.brand} cannot use {self.engine}")
+
     def _travel(self):
         print(f"Lovely travel in my {self.brand.brand_name}")
         self.climate_control.regulate_temperature(self.convertible)

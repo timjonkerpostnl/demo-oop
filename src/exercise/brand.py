@@ -16,5 +16,5 @@ class Brand:
         - max_hp
         - insurance_cost
     Brand should be able to return:
-        - If an engine is available
+        - If an engine is compatible with the brand (based on max horse power)
     """

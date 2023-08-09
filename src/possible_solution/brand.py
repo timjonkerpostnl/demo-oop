@@ -18,7 +18,7 @@ class Brand:
         - max_hp
         - insurance_cost
     Brand should be able to return:
-        - If an engine is available
+        - If an engine is compatible with the brand (based on max horse power)
     """
     brand_name: BrandName = field(repr=True)
     max_hp: int = field(repr=True, init=False)

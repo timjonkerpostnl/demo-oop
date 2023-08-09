@@ -9,6 +9,6 @@ class Person:
         - An age
         - Optional: A car
 
-    A person should be able to register a car and apply for insurance by requesting the cost
+    A person should be able to buy a car and apply for insurance by requesting the cost
     """
     pass

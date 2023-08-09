@@ -4,6 +4,6 @@ from src.possible_solution.person import Person
 
 tim = Person("Tim", 28)
 
-tim.register_car(Brand(BrandName.suzuki), Engine(20), "Turquoise", True)
+tim.buy_car(Brand(BrandName.suzuki), Engine(20), "Turquoise", True)
 tim_insurance_cost = tim.apply_insurance()
 tim.car.drive_to("Alkmaar")

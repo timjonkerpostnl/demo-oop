@@ -18,10 +18,10 @@ class Person:
         - An age
         - Optional: A car
 
-    A person should be able to register a car and apply for insurance by requesting the cost
+    A person should be able to buy a car and apply for insurance by requesting the cost
     """
 
-    def register_car(self, brand: Brand, engine: Engine, color: str, convertible: bool):
+    def buy_car(self, brand: Brand, engine: Engine, color: str, convertible: bool):
         self.car = Car(brand, engine, color, convertible)
 
     def apply_insurance(self) -> int:
