@@ -38,7 +38,7 @@ The Person should be able to request insurance costs. If you get a person of 28 
   - Think of a navigation system
   - A climate control system
   - A self driving functionality
-  Remember not to make it too complex within this assigment, if you don't know something than take something random or hardcode it. 
+  Remember not to make it too complex within this assigment, if you don't know something then take something random or hardcode it. 
   The pro of using classes is that it is very modular so you can easily implement methods more thoroughly later
 
 I hope that you learned something about Object Oriented Programming.
