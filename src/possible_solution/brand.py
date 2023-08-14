@@ -5,6 +5,7 @@ from src.possible_solution.engine import Engine
 
 
 class BrandName(Enum):
+    """Enums allow you to define a predefined list of options. This prevents typo mistakes while coding."""
     suzuki = "Suzuki"  # Max hp: 200, Additional insurance cost: 100
     mercedes = "Mercedes"  # Max hp: 500, Additional insurance cost: 1000
     ferrari = "Ferrari"  # Max hp: 1000, Additional insurance cost: 10000

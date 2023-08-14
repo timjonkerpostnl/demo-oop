@@ -30,7 +30,7 @@ Steps to complete the assignment:
 - Refactor your code such that Brand becomes a class. The brand should get its attributes solely based on the brand name.
 - Refactor your code such that Engine becomes a class that holds the amount of horse power.
 - Make sure that when creating a car the Brand and the Engine are compatible.
-- Fill the insurance company module by implementing the correct cost formula. The good thing in Python is that you can mix functional and object oriented programming
+- Fill the insurance company module by implementing the correct cost formula. The good thing in Python is that you can mix functional and object oriented programming. This is very useful as some functions do not require class properties and thus can be implemented stand alone.
 - Add a method to person that let's you request insurance.
 - If done correctly you can now Create a Person with a name and age and with or without a Car, The person can buy a car by giving a few specs these specs should be compatible.
 The Person should be able to request insurance costs. If you get a person of 28 yr, driving a 20 hp Suzuki you should have 316 insurance cost.

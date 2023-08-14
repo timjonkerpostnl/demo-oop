@@ -1,3 +1,4 @@
+"""A dataclass is a class that helps you by defining all sorts of boilerplate methods such as: init, hash, order etc."""
 from dataclasses import dataclass
 
 

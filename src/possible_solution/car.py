@@ -10,7 +10,7 @@ from src.possible_solution.navigation import _get_direction
 class Car:
     """
     A car has a number of features:
-    - A brand name
+    - A brand
     - An engine
     - A color
     - Convertible

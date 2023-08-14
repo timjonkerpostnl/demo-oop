@@ -5,7 +5,7 @@ from dataclasses import dataclass
 class Car:
     """
     A car has a number of features:
-    - A brand name
+    - A brand
     - An engine
     - A color
     - Convertible
